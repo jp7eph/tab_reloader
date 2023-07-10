@@ -17,4 +17,4 @@ npm build
 
 ## 注意事項
 
-- Manifest V3 で作成しているためFirefoxはVersion 109以降で使用可能
+- ~Manifest V3 で作成しているためFirefoxはVersion 109以降で使用可能~
