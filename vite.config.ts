@@ -7,7 +7,7 @@ const manifest = defineManifest({
     manifest_version: 3,
     name: 'tab reloader',
     description: 'Reload tab in periodic time',
-    version: '0.0.1',
+    version: '1.0.0',
     permissions: [
         "alarms",
         "tabs",
