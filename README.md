@@ -10,7 +10,7 @@
 
 ```bash
 npm install
-npm build
+npm run build
 ```
 
 2. 生成される `dist/` ディレクトリをChromeにインポートする
