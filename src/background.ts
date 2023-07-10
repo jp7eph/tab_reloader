@@ -27,7 +27,7 @@ chrome.alarms.onAlarm.addListener(function (alarm) {
             clearAlarm(Number(alarm.name));
         }
     });
-    chrome.tabs.reload(Number(alarm.name));
+    chrome.tabs.reload(Number(alarm.name), { bypassCache: true });
 });
 
 // タブ切替時にバッジ設定
